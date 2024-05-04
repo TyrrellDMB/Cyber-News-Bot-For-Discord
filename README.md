@@ -1,5 +1,5 @@
 # Cyber-News-Bot-For-Discord
-This bot displays latest news from threatpost and posts it into a discord chat of your choosing. For claricfication it will seem to do nothing at first only when you set a channel and when news is posted.
+This bot displays latest news from bleepingcomputer and posts it into a discord chat of your choosing. For claricfication it will seem to do nothing at first only when you set a channel and when news is posted.
 
 Commands:
 
@@ -13,8 +13,4 @@ https://discord.com/api/oauth2/authorize?client_id=748681178827063387&permission
 
 
 
-Powered by ThreatPost
-
-# IMPORTANT
-
-ThreatPost the site that was the source of the news scraped by the bot is now offically dead so the project only serves as a framework that can be modified to work with other news sites. 
+Powered by BleepingComputer
