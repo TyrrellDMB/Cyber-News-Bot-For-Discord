@@ -1,4 +1,4 @@
-# Cyber-News-Bot-For-Discord
+# Cyber-News-Bot-For-Discord V2
 This bot displays latest news from bleepingcomputer and posts it into a discord chat of your choosing. For claricfication it will seem to do nothing at first only when you set a channel and when news is posted.
 
 Commands:
