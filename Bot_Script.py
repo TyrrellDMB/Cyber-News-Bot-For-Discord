@@ -46,12 +46,12 @@ async def status_task():
         global pentry
         global x
         print("Works?")
-        NewsFeed = feedparser.parse("https://threatpost.com/feed/")
+        NewsFeed = feedparser.parse("https://www.bleepingcomputer.com/feed/")
         entry = NewsFeed.entries[0]
         while entry == pentry:
             await asyncio.sleep(60)
             print("x")
-            NewsFeed = feedparser.parse("https://threatpost.com/feed/")
+            NewsFeed = feedparser.parse("https://www.bleepingcomputer.com/feed/")
             entry = NewsFeed.entries[0]
             print(entry)
         print(entry)
@@ -64,7 +64,7 @@ async def status_task():
             description=Rdesc,
             color=discord.Colour(value=0xff1414),
         )
-        LatestNews.set_footer(text="Cyber News Bot by peel1 - Powered by threatpost.com")
+        LatestNews.set_footer(text="Cyber News Bot by 443Cube - Powered by threatpost.com")
         print(CurrentChan)
         for i in ToPost:
             TempChan = ToPost[x]
