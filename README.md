@@ -7,10 +7,4 @@ Commands:
 
 @remove-channel "name of channel" - Remove Channel for bot to use
 
-
-Invite-Link:
-https://discord.com/oauth2/authorize?client_id=1236463693072695367&permissions=536964096&scope=bot
-
-
-
 Powered by BleepingComputer
